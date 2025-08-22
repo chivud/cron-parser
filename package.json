@@ -1,0 +1,28 @@
+{
+  "name": "cron-parser",
+  "version": "0.0.1",
+  "description": "Simple CronJob parser",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "dev": "ts-node index.ts",
+    "start": "node dist/index.js",
+    "format": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Chivu",
+    "email": "chivu.9019@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
